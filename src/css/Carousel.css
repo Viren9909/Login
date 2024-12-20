@@ -1,0 +1,19 @@
+.img-style{
+    @apply absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
+}
+
+.item-style{
+    @apply hidden duration-700 ease-in-out
+}
+
+.nav-s-btn{
+    @apply absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer 
+}
+
+.nav-e-btn{
+    @apply absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer
+}
+
+.nav-span{
+    @apply inline-flex items-center justify-center w-10 h-10 rounded-full
+}
