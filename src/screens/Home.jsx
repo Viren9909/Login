@@ -8,7 +8,6 @@ const Home = () => {
         <div>
             <Navbar />
             <Carousel/>
-            <h1>Home Screen</h1>
         </div>
     )
 }

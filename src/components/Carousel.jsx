@@ -4,7 +4,7 @@ import "../css/Carousel.css"
 const Carousel = () => {
     return (
         <div>
-            <div id="default-carousel" className="relative w-full" data-carousel="slide">
+            <div id="carousel" className="relative w-full" data-carousel="slide">
                 {/*  Carousel wrapper  */}
                 <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                     {/*  Item 1  */}
