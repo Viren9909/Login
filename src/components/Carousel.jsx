@@ -1,6 +1,7 @@
 import React from 'react'
 import "../css/Carousel.css"
 
+
 const Carousel = () => {
     return (
         <div>
@@ -9,23 +10,24 @@ const Carousel = () => {
                 <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                     {/*  Item 1  */}
                     <div className="item-style" data-carousel-item>
-                        <img src="..." className="img-style" alt="..."/>
+                        {/* <img src={img1} className="img-style" alt="..."/> */}
+                        <img src="" className="img-style" alt="..."/>
                     </div>
                     {/*  Item 2  */}
                     <div className="item-style" data-carousel-item>
-                        <img src="..." className="img-style" alt="..."/>
+                        <img src="" className="img-style" alt="..."/>
                     </div>
                     {/*  Item 3  */}
                     <div className="item-style" data-carousel-item>
-                        <img src="..." className="img-style" alt="..."/>
+                        <img src="" className="img-style" alt="..."/>
                     </div>
                     {/*  Item 4  */}
                     <div className="item-style" data-carousel-item>
-                        <img src="..." className="img-style" alt="..."/>
+                        <img src="" className="img-style" alt="..."/>
                     </div>
                     {/*  Item 5  */}
                     <div className="item-style" data-carousel-item>
-                        <img src="..." className="img-style" alt="..."/>
+                        <img src="" className="img-style" alt="..."/>
                     </div>
                 </div>
                 {/*  Slider indicators  */}
