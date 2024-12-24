@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import "bootstrap-icons/font/bootstrap-icons.css"
 
 const Navbar = () => {
     return (
@@ -7,7 +8,7 @@ const Navbar = () => {
             <nav className="bg-gray-800 text-white">
                 <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                     <div className="flex items-center">
-                        <img src="logo.svg" alt="Logo" className="w-10 h-10 mr-4" />
+                        <i className="text-2xl mr-2 bi bi-list" ></i>
                         <h1 className="text-xl font-bold">Shopsy</h1>
                     </div>
                     <ul className="hidden md:flex space-x-4">

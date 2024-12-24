@@ -42,7 +42,7 @@ const Carousel = () => {
                 <button type="button" className="nav-s-btn focus:outline-none group" data-carousel-prev>
                     <span className="nav-span">
                         <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
+                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 1 1 5l4 4" />
                         </svg>
                         <span className="sr-only">Previous</span>
                     </span>
@@ -50,7 +50,7 @@ const Carousel = () => {
                 <button type="button" className="nav-e-btn group focus:outline-none" data-carousel-next>
                     <span className="nav-span">
                         <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
                         </svg>
                         <span className="sr-only">Next</span>
                     </span>
