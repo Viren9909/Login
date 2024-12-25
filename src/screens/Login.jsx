@@ -18,8 +18,8 @@ const Login = () => {
     return (
         <div className="bg-gray-900 h-screen flex items-center justify-center">
             <div className="bg-gray-800 p-10 rounded-lg shadow-md w-full max-w-md">
-                <h1 className="text-3xl font-bold text-white mb-8">Welcome to TechHaven</h1>
-                <p className="text-gray-200 mb-8">Your Gateway to Tech Excellence</p>
+                <h1 className="text-3xl font-bold text-white mb-8">Welcome to Cypher</h1>
+                <p className="text-gray-200 mb-8">Your Neighborhood, Your Market</p>
                 <form onSubmit={handleSubmit}>
                     <div className="mb-4">
                         <label htmlFor="email" className="text-gray-300">Email</label>

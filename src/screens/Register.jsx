@@ -19,7 +19,7 @@ const Register = () => {
     return (
         <div className="flex items-center justify-center bg-slate-900 h-screen">
             <div className="bg-slate-800 p-10 rounded-lg shadow-md w-full max-w-lg">
-                <h1 className="text-3xl font-bold text-white mb-8">Welcome to TechHaven</h1>
+                <h1 className="text-3xl font-bold text-white mb-8">Welcome to Cypher</h1>
                 <h2 className="text-gray-200 text-2xl mb-4">Create Account</h2>
                 <form onSubmit={handleSubmit}>
 
